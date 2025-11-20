@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Order Receipt</title>
+
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 0; }
+    .container { max-width: 600px; background: #ffffff; margin: auto; padding: 25px; border-radius: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; }
+    .total { font-weight: bold; }
+    .footer { font-size: 12px; text-align: center; color: #777; margin-top: 25px; }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Order Receipt</h2>
+    <p>Hi {{first_name}}, thanks for your order!</p>
+
+    <p><strong>Order ID:</strong> {{order_id}}</p>
+
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Qty</th>
+        <th>Price</th>
+      </tr>
+
+      {{order_items}} 
+      <!-- Example row format:
+      <tr>
+        <td>Product Name</td>
+        <td>1</td>
+        <td>$29.99</td>
+      </tr>
+      -->
+
+      <tr class="total">
+        <td colspan="2">Total</td>
+        <td>{{order_total}}</td>
+      </tr>
+    </table>
+
+    <p><strong>Payment Method:</strong> {{payment_method}}</p>
+
+    <p>If you have any questions, just reply to this email.</p>
+
+    <div class="footer">
+      <p>{{unsubscribe_link}}</p>
+    </div>
+  </div>
+</body>
+</html>
