@@ -2,15 +2,27 @@ This repository contains a collection of responsive, customizable email template
 
 **Technologies Used**
 
-✅ HTML5 with inline CSS (for email‑client compatibility)
+**HTML5**: The backbone of all the email templates, ensuring they are compatible with most email clients.
 
-✅ Responsive design using media queries for mobile and desktop viewports
+**Inline CSS**: Used for styling, as it is widely supported across different email clients (e.g., Gmail, Outlook).
 
-✅ Template variants for email automation platforms (Instantly.ai, Smartlead.ai)
+**Media Queries**: To ensure responsive design, making the emails mobile-friendly and properly rendered across devices.
 
-✅ Merge fields/templating tags (e.g., {{first_name}}, {{unsubscribe_link}}) for personalization
+**Email Marketing Platforms:**
 
-✅ Tested across major clients (Gmail, Outlook, Apple Mail, Yahoo)
+✅ Instantly.ai: Cold email outreach and automation platform for personalized email campaigns.
+
+✅ Smartlead.ai: Lead generation and email automation platform.
+
+✅ Mailchimp: Popular email marketing and automation platform for creating campaigns and newsletters.
+
+✅ HubSpot: CRM and email marketing tool for inbound marketing automation.
+
+✅ ActiveCampaign: Email marketing and CRM platform with automation features for customer engagement.
+
+✅ Merge Tags: For personalization, e.g., {{first_name}}, {{unsubscribe_link}} to dynamically insert content based on user data.
+
+✅ Email Client Compatibility: Tested across major email clients (e.g., Gmail, Outlook, Apple Mail, Yahoo) to ensure consistent rendering.
 
 **Setup / Usage**
 
@@ -63,7 +75,7 @@ Make sure to include an unsubscribe link to comply with anti‑spam regulations.
 Use alt text on images—in case images don’t load or are blocked by the recipient’s client.
 
 
-**If you’d like custom templates or need help integrating templates with automation platforms like Instantly.ai or Smartlead.ai:**
+**If you’d like custom templates or need help with email marketing :**
 
 Email: faiyad@allinonedigitalx.info
 
