@@ -1,4 +1,4 @@
-This repository contains a collection of responsive, customizable email templates designed to fit various marketing and transactional workflows. Templates are compatible with platforms such as Instantly.ai and Smartlead.ai, and are optimized to render properly across major email clients (Gmail, Outlook, Apple Mail, etc.).
+**This repository contains a collection of responsive, customizable email templates designed to fit various marketing and transactional workflows. Templates are compatible with platforms such as Instantly.ai and Smartlead.ai, and are optimized to render properly across major email clients (Gmail, Outlook, Apple Mail, etc.).**
 
 **Technologies Used**
 
