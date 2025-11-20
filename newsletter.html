@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Newsletter</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: #f5f5f5; 
+      margin: 0; 
+      padding: 0; 
+    }
+    .container { 
+      background: #ffffff; 
+      max-width: 600px; 
+      margin: auto; 
+      padding: 20px; 
+    }
+    .header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .header h1 {
+      color: #333333;
+    }
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 25px;
+      margin-bottom: 10px;
+      color: #444444;
+    }
+    .article {
+      margin-bottom: 20px;
+    }
+    .article img {
+      width: 100%;
+      border-radius: 4px;
+    }
+    .cta-button {
+      display: inline-block;
+      background: #007BFF;
+      color: white;
+      padding: 12px 18px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .footer {
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <h1>{{newsletter_title}}</h1>
+      <p>{{newsletter_subtitle}}</p>
+    </div>
+
+    <!-- Article 1 -->
+    <div class="article">
+      <div class="section-title">{{section1_title}}</div>
+      <img src="{{section1_image}}" alt="Article image" />
+      <p>{{section1_text}}</p>
+      <p>
+        <a href="{{section1_cta_link}}" class="cta-button">Read More</a>
+      </p>
+    </div>
+
+    <!-- Article 2 -->
+    <div class="article">
+      <div class="section-title">{{section2_title}}</div>
+      <img src="{{section2_image}}" alt="Article image" />
+      <p>{{section2_text}}</p>
+      <p>
+        <a href="{{section2_cta_link}}" class="cta-button">Read More</a>
+      </p>
+    </div>
+
+    <!-- Article 3 -->
+    <div class="article">
+      <div class="section-title">{{section3_title}}</div>
+      <img src="{{section3_image}}" alt="Article image" />
+      <p>{{section3_text}}</p>
+      <p>
+        <a href="{{section3_cta_link}}" class="cta-button">Read More</a>
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>You are receiving this email because you subscribed to our newsletter.</p>
+      <p>{{unsubscribe_link}}</p>
+    </div>
+
+  </div>
+</body>
+</html>
