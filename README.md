@@ -16,7 +16,7 @@ This repository contains a collection of responsive, customizable email template
 
 1. Clone the repository : 
 
-git clone https://github.com/faiyad-uddin/Email‑Templates‑Library.git  
+git clone https://github.com/faiyad-uddin/Email‑Templates‑welcome_email 
 cd Email‑Templates‑Library
 
 
