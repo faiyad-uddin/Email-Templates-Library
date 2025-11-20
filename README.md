@@ -14,16 +14,10 @@ This repository contains a collection of responsive, customizable email template
 
 **Setup / Usage**
 
-1. Clone the repository : 
-
-git clone https://github.com/faiyad-uddin/Email-Templates-Library 
-cd Email‑Templates‑Library
-
-
-2. Choose your template:
+1. Choose your template:
 Navigate to the folder matching your workflow (e.g., welcome_email/, newsletter/, transactional/).
 
-3. Customize the template:
+2. Customize the template:
 
 Update brand colours, fonts, and images in the assets/ folder.
 
@@ -31,13 +25,13 @@ Replace placeholder merge fields (e.g., {{first_name}}) with the syntax required
 
 Update links (social, footer, unsubscribe), headers and footers.
 
-4. Deploy through your automation platform:
+3. Deploy through your automation platform:
 
 If you use Instantly.ai: upload the HTML template or copy it into a campaign sequence.
 
 If you use Smartlead.ai: integrate the template into your campaign builder or automation workflow.
 
-5. Test your email:
+4. Test your email:
 
 Use the built‑in testing/preview features of Instantly.ai or Smartlead.ai (or an external email‑client tester) to check rendering across devices and clients.
 
