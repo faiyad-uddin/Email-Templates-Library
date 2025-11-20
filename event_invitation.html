@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Event Invitation</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      background: #ffffff;
+      max-width: 600px;
+      margin: auto;
+      padding: 25px;
+      border-radius: 6px;
+    }
+
+    .banner img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    h2 {
+      color: #333333;
+      margin-top: 20px;
+    }
+
+    .details {
+      margin: 20px 0;
+      line-height: 1.6;
+      color: #555555;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: #FF5722;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Event Banner -->
+    <div class="banner">
+      <img src="{{event_banner_image}}" alt="Event Banner">
+    </div>
+
+    <!-- Title -->
+    <h2>{{event_title}}</h2>
+
+    <!-- Description -->
+    <p>{{event_description}}</p>
+
+    <!-- Event Details -->
+    <div class="details">
+      <strong>Date:</strong> {{event_date}} <br>
+      <strong>Time:</strong> {{event_time}} <br>
+      <strong>Location:</strong> {{event_location}} <br>
+      <strong>Host:</strong> {{event_host}}
+    </div>
+
+    <!-- CTA Button -->
+    <p>
+      <a href="{{rsvp_link}}" class="cta-button">RSVP Now</a>
+    </p>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Have questions? Reply to this email.</p>
+      <p>{{unsubscribe_link}}</p>
+    </div>
+
+  </div>
+</body>
+</html>
